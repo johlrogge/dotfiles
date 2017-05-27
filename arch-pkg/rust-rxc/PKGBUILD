@@ -1,0 +1,17 @@
+
+# Maintainer: Joakim Ohlrogge <joakim.ohlrogge@agical.se>
+pkgname=rust-rxc
+pkgver=1.0.0
+pkgrel=1
+pkgdesc="Crosscompiler for Rust to Raspberry Pi. Uses docker"
+arch=('any')
+url="https://hub.docker.com/r/dlecan/rust-crosscompiler-arm/"
+license=('unknown')
+depends=('docker' 'rustup')
+source=("rxc")
+md5sums=('72a944d8261c0a6661dd5f6be9897331')
+
+package() {
+   install -dm755 "$pkgdir/usr/bin"
+   cp "$srcdir/rxc" "$pkgdir/usr/bin/rxc"
+}
