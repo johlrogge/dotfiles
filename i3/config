@@ -16,7 +16,7 @@ font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 floating_modifier Mod4
 
 # start a terminal
-bindsym Mod4+Return exec urxvt
+bindsym Mod4+Return exec st
 
 # kill focused window
 bindsym Mod4+Shift+q kill
