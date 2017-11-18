@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+#name : rust_
+#key : rust_
+#contributor : 
+# --
+#+BEGIN_SRC rust :tangle yes
+$0
+#+END_SRC

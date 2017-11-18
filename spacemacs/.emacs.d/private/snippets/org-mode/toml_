@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+#name : toml_
+#key : toml_
+#contributor : 
+# --
+#+BEGIN_SRC toml
+$0
+#+END_SRC
